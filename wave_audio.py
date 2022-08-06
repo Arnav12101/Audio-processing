@@ -1,5 +1,6 @@
 import wave
-obj = wave.open("testaudio.wav","rb")
+#The audio file has to be in .wav format
+obj = wave.open("testaudio.wav","rb")#replace 'testaudio.wav' with your own file name
 #Getter functions
 print("Number of channels: ",obj.getnchannels())
 print("Sample width: ",obj.getsampwidth())
